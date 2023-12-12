@@ -1,7 +1,7 @@
 
-# Talk-A-Tive
+# Chat Sphere
 
-Talk-a-tive is a Full Stack Chatting App.
+Chat Sphere is a Full Stack Chatting App.
 Uses Socket.io for real time communication and stores user details in encrypted format in Mongo DB Database.
 ## Tech Stack
 
@@ -13,7 +13,7 @@ Uses Socket.io for real time communication and stores user details in encrypted 
   
 ## Demo
 
-https://talk-a-tive.herokuapp.com/
+https://chat-sphere-phbk.onrender.com
 
 ![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/group%20%2B%20notif.PNG)
 ## Run Locally
@@ -21,13 +21,13 @@ https://talk-a-tive.herokuapp.com/
 Clone the project
 
 ```bash
-  git clone https://github.com/piyush-eon/mern-chat-app
+  git clone https://github.com/shubham-1809/chat-sphere.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd mern-chat-app
+  cd chat-sphere
 ```
 
 Install dependencies
@@ -74,8 +74,5 @@ Start the Client
 ![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/add%20rem.PNG)
 ### View Other user Profile
 ![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/profile.PNG)
-## Made By
-
-- [@Piyush-eon](https://github.com/piyush-eon)
 
   
