@@ -142,7 +142,7 @@ function SideDrawer() {
           </Button>
         </Tooltip>
         <Text fontSize="2xl" fontFamily="Work sans">
-          Chat Sphere
+          CHAT SPHERE
         </Text>
         <div>
           <Menu>
