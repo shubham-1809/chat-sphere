@@ -122,8 +122,6 @@ const SingleChat = ({ fetchAgain, setFetchAgain }) => {
   }, [selectedChat]);
 
   useEffect(() => {
-    // Create an audio element for playing the notification sound
-    const audioElement = new Audio('notification.mp3');
     socket.on("message recieved", (newMessageRecieved) => {
       if (
         !selectedChatCompare || // if chat is not selected or doesn't match current chat
@@ -132,14 +130,9 @@ const SingleChat = ({ fetchAgain, setFetchAgain }) => {
         if (!notification.includes(newMessageRecieved)) {
           setNotification([newMessageRecieved, ...notification]);
           setFetchAgain(!fetchAgain);
-
-          // Play the notification sound
-          audioElement.play();
         }
       } else {
         setMessages([...messages, newMessageRecieved]);
-        // Play the notification sound
-        audioElement.play();
       }
     });
   });
