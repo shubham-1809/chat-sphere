@@ -1,78 +1,53 @@
+<h2>Chat Sphere</h2>
 
-# Chat Sphere
+<p>Welcome to the Chat Sphere! This chat application allows users to engage in real-time conversations, both one to one and group chats powered by Node.js, React.js and Socket.io.</p>
 
-Chat Sphere is a Full Stack Chatting App.
-Uses Socket.io for real time communication and stores user details in encrypted format in Mongo DB Database.
-## Tech Stack
+<h3>Table of Contents</h3>
+<ul>
+   <li>Features</li>
+   <li>Technology Used</li>
+   <li>Installation</li>
+   <li>Usage</li>
+   <li>Demo</li>
+   <li>Contributing</li>
+   <li>License</li>
+</ul>
 
-**Client:** React JS
+<h3>Features</h3>
+<ul>
+   <li><h4>Backend</h4></li>
+      <ul>
+         <li>Node.js</li>
+         <li>Socket.io</li>
+         <li>Express</li>
+      </ul>
+   <li><h4>Frontend</h4></li>
+      <ul>
+         <li>React.js</li>
+         <li>Chakra UI</li>
+      </ul>
+</ul>
 
-**Server:** Node JS, Express JS
+<h3>Installlation</h3>
+<ul>
+   <li>Clone the repository: git clone https://github.com/shubham-1809/chat-sphere.git </li>
+   <li>Navigate to the project folder: cd chat-sphere </li>
+   <li>Install dependencies: npm install </li>
+</ul>
 
-**Database:** Mongo DB
-  
-## Demo
+<h3>Usage</h3>
+<ul>
+   <li>Start the server: node index.js </li>
+   <li>Open the chat app in your web browser: http://localhost:3000 </li>
+   <li>Enter your username, password and start chatting!</li>
+</ul>
 
-https://chat-sphere-phbk.onrender.com
+<h3>Demo</h3>
+<p>Check out a live demo of the chat app <a href = "https://chat-sphere-phbk.onrender.com"> here. </a></p>
 
-![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/group%20%2B%20notif.PNG)
-## Run Locally
+<h3>Contributing</h3>
+<p>If you'd like to contribute, please fork the repository and create a new branch. Pull requests are welcome.</p>
 
-Clone the project
+## License
 
-```bash
-  git clone https://github.com/shubham-1809/chat-sphere.git
-```
-
-Go to the project directory
-
-```bash
-  cd chat-sphere
-```
-
-Install dependencies
-
-```bash
-  npm install
-```
-
-```bash
-  cd frontend/
-  npm install
-```
-
-Start the server
-
-```bash
-  npm run start
-```
-Start the Client
-
-```bash
-  //open now terminal
-  cd frontend
-  npm start
-```
-
-  
-# Features
-
-### Authenticaton
-![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/login.PNG)
-![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/signup.PNG)
-### Real Time Chatting with Typing indicators
-![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/real-time.PNG)
-### One to One chat
-![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/mainscreen.PNG)
-### Search Users
-![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/search.PNG)
-### Create Group Chats
-![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/new%20grp.PNG)
-### Notifications 
-![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/group%20%2B%20notif.PNG)
-### Add or Remove users from group
-![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/add%20rem.PNG)
-### View Other user Profile
-![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/profile.PNG)
-
-  
+This project is licensed under the [MIT License](LICENSE).
